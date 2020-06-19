@@ -94,18 +94,18 @@ Of course, no one template will serve all projects since your needs may be diffe
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+Framework and major component for this project. 
+* [Vue CLI 3](https://cli.vuejs.org/)
+* [Vuesax](https://lusaxweb.github.io/vuesax/)
+* [Tailwind](https://lusaxweb.github.io/vuesax/)
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To deploy this as development we need to $ npm i<p>
+ </p>or $ yarn install this repo after fork or clone this.
 
 ### Prerequisites
 
