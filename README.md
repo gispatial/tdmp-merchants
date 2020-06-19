@@ -82,7 +82,7 @@ Token request directory please refer below:
 
 <img src="https://vuex.vuejs.org/flow.png" width="40%"><p>This is a simple representation of the concept of "one-way data binding flow</p>
 
-Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. It also integrates with Vue's official devtools extension to provide advanced features such as zero-config time-travel debugging and state snapshot export / import.
+Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. It also integrates with Vue's official devtools extension to provide advanced features such as zero-config time-travel debugging and state snapshot export / import. [Read More][https://vuex.vuejs.org/](https://vuex.vuejs.org/).
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
