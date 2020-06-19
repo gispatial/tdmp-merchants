@@ -78,11 +78,10 @@ Token request directory please refer below:
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## What is Vuex?
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-This project was based on Vuex State management on VueJs. For more details about what's Vuex? Please head to: <a href="https://github.com/vuejs/vue-devtools">vue-devtools</a>. installing that with your depencencies. I will help us to debug this project later on using Vue-Devtools.
+[![Product Name Screen Shot][product-screenshot]](https://github.com/vuejs/vue-devtools)
+Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. It also integrates with Vue's official devtools extension to provide advanced features such as zero-config time-travel debugging and state snapshot export / import.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
