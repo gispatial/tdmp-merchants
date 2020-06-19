@@ -82,7 +82,7 @@ Token request directory please refer below:
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+This project was based on Vuex State management on VueJs. For more details about what's Vuex? Please head to: <a href="https://github.com/vuejs/vue-devtools">vue-devtools</a>. installing that with your depencencies. I will help us to debug this project later on using Vue-Devtools.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
