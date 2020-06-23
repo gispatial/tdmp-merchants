@@ -38,6 +38,7 @@ Enter Barcode:
 import draggable from 'vuedraggable'
 import Prism from 'vue-prism-component'
 
+
 export default {
     data() {
         return {

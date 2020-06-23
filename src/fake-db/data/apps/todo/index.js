@@ -4,19 +4,19 @@ import mock from "@/fake-db/mock.js"
 let data = {
   tasks: [
     {
-      "id": 10,
-      "title": "Nur Faten Munirah bt Mahfudz",
-      "desc": "It was quite an awesome experience. My family and I got a chance to interact with many different animals in this park. Worth a try once in a lifetime.",
+      "id": 6445,
+      "title": "WHOLE DAY TOUR AT TAMAN BOTANI NEGARA SHAH ALAM",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": true,
       "isStarred": true,
-      "tags": ["doc", "spent 2 hours"],
+      "tags": ["doc", "Family with Children"],
       "isCompleted": false,
       "isTrashed": false
     },
     {
       "id": 11,
-      "title": "demi nur syafiqah binti kamalaffandi",
-      "desc": "worth every penny!!",
+      "title": "WHOLE DAY TOUR AT TAMAN BOTANI NEGARA SHAH ALAM",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": false,
       "isStarred": true,
       "tags": ["frontend", "doc"],
@@ -25,8 +25,8 @@ let data = {
     },
     {
       "id": 15,
-      "title": "RIZAL BIN HUSIN 🎁",
-      "desc": "The children love it…especially the Skyrex, Skydome and 3D Museum…during peak seasons, a very long waiting time to take the skycab…",
+      "title": "WHOLE DAY TOUR AT TAMAN BOTANI NEGARA SHAH ALAM",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": true,
       "isStarred": true,
       "tags": ["backend", "doc"],
@@ -35,8 +35,8 @@ let data = {
     },
     {
       "id": 18,
-      "title": "Salina Binti Shafie",
-      "desc": "Funtastic experience",
+      "title": "WHOLE DAY TOUR AT TAMAN BOTANI NEGARA SHAH ALAM",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": false,
       "isStarred": false,
       "tags": ["bug"],
@@ -44,9 +44,9 @@ let data = {
       "isTrashed": false
     },
     {
-      "id": 20,
-      "title": "Hew Boon Chung 😁",
-      "desc": "Sky cab. About 2hours",
+      "id": 340,
+      "title": "UNDERWATER WORLD LANGKAWI",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": true,
       "isStarred": true,
       "tags": [],
@@ -55,8 +55,8 @@ let data = {
     },
     {
       "id": 23,
-      "title": "Shaizatul Shafie ❤️",
-      "desc": "It fun and great trip",
+      "title": "UNDERWATER WORLD LANGKAWI",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": true,
       "isStarred": true,
       "tags": ["frontend", "backend", "doc"],
@@ -65,8 +65,8 @@ let data = {
     },
     {
       "id": 25,
-      "title": "Nor sarina",
-      "desc": "Im soo soo happy with this experience",
+      "title": "UNDERWATER WORLD LANGKAWI",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": true,
       "isStarred": false,
       "tags": [],
@@ -75,8 +75,8 @@ let data = {
     },
     {
       "id": 28,
-      "title": "INTAN NORAHKEMA BT MUSTAPA",
-      "desc": "best pakej yg diberikan dgn harga yg mampu beli",
+      "title": "UNDERWATER WORLD LANGKAWI",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": false,
       "isStarred": false,
       "tags": ["backend"],
@@ -85,8 +85,8 @@ let data = {
     },
     {
       "id": 29,
-      "title": "AKM SHARIFUL ISLAM MAMUN",
-      "desc": "Kids spent a good time.",
+      "title": "UNDERWATER WORLD LANGKAWI",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": false,
       "isStarred": false,
       "tags": [],
@@ -94,21 +94,28 @@ let data = {
       "isTrashed": true
     },
     {
-      "id": 33,
-      "title": "Nor Atiqah binti Samsudin 💻",
-      "desc": "Harga berpatutan.. Service yang bagus.. Sangat puas hatiii.. Next time mai lagi nak booking yang sama jugak hehehe",
+      "id": 340,
+      "title": "WHOLE DAY TOUR AT TAMAN BOTANI NEGARA SHAH ALAM",
+      "desc": "Very clean, well maintained park, kids love it.",
       "isImportant": true,
       "isStarred": false,
-      "tags": ["frontend"],
+      "tags": ["frontending"],
       "isCompleted": false,
       "isTrashed": false
     },
   ],
   taskTags: [
-    { id: 5,text: 'Frontend' ,value : 'frontend', color: 'primary' },
-    { id: 7,text: 'Backend', value: 'backend', color: 'warning'},
-    { id: 8,text: 'Doc', value: 'doc', color: 'success'},
-    { id: 11,text: 'Bug', value: 'bug', color: 'danger' },
+    { id: 11,text: 'Spent less than 1 hour', value: 'bug', color: 'danger' },
+    { id: 5,text: 'Spent 1 hour' ,value : 'frontending', color: 'primary' },
+    { id: 7,text: 'Spent 2 hours', value: 'backend', color: 'warning'},
+    { id: 8,text: 'Spent 3 hours', value: 'doc', color: 'success'},
+    { id: 8,text: 'Spent 4 hours', value: 'doc', color: 'success'},
+    { id: 11,text: 'Spent more than 4 hours', value: 'bug', color: 'danger' },
+    { id: 11,text: 'Solo Traveler', value: 'bug', color: 'danger' },
+    { id: 5,text: 'Couple' ,value : 'frontending', color: 'primary' },
+    { id: 7,text: 'Family with Children', value: 'backend', color: 'warning'},
+    { id: 8,text: 'Group of Friends', value: 'doc', color: 'success'},
+    { id: 11,text: 'Company / Corporate', value: 'bug', color: 'danger' },
   ]
 }
 

@@ -27,10 +27,6 @@
 
         <search-bar />
 
-        <cart-drop-down />
-
-        <notification-drop-down />
-
         <profile-drop-down />
 
       </vs-navbar>
@@ -59,8 +55,6 @@ export default {
     Bookmarks,
     I18n,
     SearchBar,
-    CartDropDown,
-    NotificationDropDown,
     ProfileDropDown,
   },
   computed: {

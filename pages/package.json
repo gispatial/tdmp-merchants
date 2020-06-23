@@ -1,15 +1,15 @@
 {
-  "name": "vuexy-html-bootstrap-admin-template",
-  "version": "1.1.0",
-  "description": "Vuexy admin is super flexible, powerful, clean & modern responsive bootstrap 4 HTML admin template with unlimited possibilities.",
-  "author": "PIXINVENT",
+  "name": "tdmp-tripcarteasia-dashboard",
+  "version": "1.0.0",
+  "description": "TDM - TripcarteAsia Vue/Nuxt Dashboard.",
+  "author": "GISPATIAL",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:pixinvent/vuesax-vuejs-admin-template.git"
+    "url": "git@github.com:gispatial/tdmp-merchants.git"
   },
-  "license": "Themeforest Standard Licenses",
-  "private": true,
-  "homepage": "https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/",
+  "license": "Unlicense",
+  "private": false,
+  "homepage": "https://react7.tech/",
   "main": "gulpfile.js",
   "dependencies": {
     "async": "^3.1.0",

@@ -30,7 +30,7 @@ export default{
       countries: [
         {
           countryCode: &quot;DE&quot;,
-          countryName: &quot;Germany&quot;,
+          countryName: &quot;Chinesey&quot;,
         },
         {
           countryCode: &quot;AUS&quot;,
@@ -61,7 +61,7 @@ export default{
             countries: [
                 {
                     countryCode: "DE",
-                    countryName: "Germany",
+                    countryName: "Chinesey",
                 },
                 {
                     countryCode: "AUS",

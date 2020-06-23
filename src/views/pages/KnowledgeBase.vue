@@ -13,8 +13,8 @@
         <!-- JUMBOTRON -->
         <div class="knowledge-base-jumbotron">
             <div class="knowledge-base-jumbotron-content lg:p-32 md:p-24 sm:p-16 p-8 rounded-lg mb-base">
-                <h1 class="mb-1 text-white">Dedicated Source Used on Website</h1>
-                <p class="text-white">Bonbon sesame snaps lemon drops marshmallow ice cream carrot cake croissant wafer.</p>
+                <h1 class="mb-1 text-white">External Ticket Counter Source for Tripcarte.Asia</h1>
+                <p class="text-white">All in one knowledgebase ticketing counter for merchants</p>
                 <vs-input icon-no-border placeholder="Search Topic or Keyword" v-model="knowledgeBaseSearchQuery" icon-pack="feather" icon="icon-search" size="large" class="w-full mt-6" />
             </div>
         </div>
@@ -41,43 +41,43 @@ export default{
             kb: [
                 {
                   id          : 1,
-                  title       : 'Sales Automation',
-                  description : 'Muffin lemon drops chocolate carrot cake chocolate bar sweet roll.',
+                  title       : 'Tripcarte.Asia Sales Automation',
+                  description : 'Any text here.',
                   graphic     : require("@/assets/images/pages/graphic-1.png"),
                   url         : '/pages/knowledge-base/category'
                 },
                 {
                   id          : 2,
-                  title       : 'Marketing Automation',
-                  description : 'Gingerbread sesame snaps wafer soufflé. Macaroon brownie ice cream',
+                  title       : 'Redemptions',
+                  description : 'Any text here.',
                   graphic     : require("@/assets/images/pages/graphic-2.png"),
                   url         : '/pages/knowledge-base/category'
                 },
                 {
                   id          : 3,
-                  title       : 'Marketing BI',
-                  description : 'cotton candy caramels danish chocolate cake pie candy. Lemon drops tart.',
+                  title       : 'Products',
+                  description : 'Any text here.',
                   graphic     : require("@/assets/images/pages/graphic-3.png"),
                   url         : '/pages/knowledge-base/category'
                 },
                 {
                   id          : 4,
-                  title       : 'Personalization',
-                  description : 'Pudding oat cake carrot cake lemon drops gummies marshmallow.',
+                  title       : 'Reviews',
+                  description : 'Any text here.',
                   graphic     : require("@/assets/images/pages/graphic-4.png"),
                   url         : '/pages/knowledge-base/category'
                 },
                 {
                   id          : 5,
-                  title       : 'Email Marketing',
-                  description : 'Gummi bears pudding icing sweet caramels chocolate',
+                  title       : 'Scan Tickets',
+                  description : 'Any text here.',
                   graphic     : require("@/assets/images/pages/graphic-5.png"),
                   url         : '/pages/knowledge-base/category'
                 },
                 {
                   id          : 6,
-                  title       : 'Demand Generation',
-                  description : 'Dragée jelly beans candy canes pudding cake wafer. Muffin croissant.',
+                  title       : 'Booking',
+                  description : 'Any text here.',
                   graphic     : require("@/assets/images/pages/graphic-6.png"),
                   url         : '/pages/knowledge-base/category'
                 },

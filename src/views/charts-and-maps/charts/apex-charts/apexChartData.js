@@ -2,9 +2,9 @@
     File Name: apexChartData.vue
     Description: Data shown by charts
     ----------------------------------------------------------------------------------------
-    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
-      Author: Pixinvent
-    Author URL: http://www.themeforest.net/user/pixinvent
+    Item Name: Tripcarte.Asia Dashboard Management Portal
+      Author: Tripcarte.Asia
+    Staging URL: http://tripcarte.gispatial.tech/api
 ==========================================================================================*/
 
 
@@ -324,7 +324,7 @@ export default {
             },
             xaxis: {
                 categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-                    'United States', 'China', 'Germany'
+                    'United States', 'China', 'Chinesey'
                 ],
             }
         }
@@ -354,7 +354,7 @@ export default {
           },
           xaxis: {
             categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
-              'United States', 'China', 'Germany'
+              'United States', 'China', 'Chinesey'
             ],
           }
         }

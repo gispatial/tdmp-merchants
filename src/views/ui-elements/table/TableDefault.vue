@@ -9,23 +9,26 @@
 
 
 <template>
-    <vx-card title="Default" code-toggler>
 
-        <p>To implement a data table we have the component vs-table, also sub components and slots for a better management of the structure and operation</p>
-
-        <vx-list :list="tableList"></vx-list><br>
-
-        <vs-alert color="primary" icon="new_releases" active="true">
-            <p>In order to manipulate the data within the table, it is necessary to add the property: <code>data="myDataTable"</code> and thus be able to use the <code>slot-scope="{data}"</code></p>
-        </vs-alert><br><br>
+    <vx-card title="Booking" code-toggler>
+<br><br>
 
         <vs-table :data="users">
 
+
+              <vs-input class="mb-2 md:mb-0 mr-2" v-model="searchQuery" @input="updateSearchQuery" placeholder="Search..." />
+              <vs-button class="btn-drop" type="line" color="blue" icon-pack="feather" icon="icon-chevron-down" click="">Sort</vs-button>
+              </div>
+            <vs-button class="mb-4 md:mb-0" @click="gridApi.exportDataAsCsv()">Export as CSV</vs-button></div>
+                <vx-card title="Booking" code-toggler>
+                </vx-card>
+
             <template slot="thead">
-                <vs-th>Email</vs-th>
-                <vs-th>Name</vs-th>
-                <vs-th>Website</vs-th>
-                <vs-th>Nro</vs-th>
+                <vs-th>Order ID</vs-th>
+                <vs-th>Item</vs-th>
+                <vs-th>Quantity</vs-th>
+                <vs-th>Selected Date</vs-th>
+                <vs-th>Selected</vs-th>
             </template>
 
             <template slot-scope="{data}">

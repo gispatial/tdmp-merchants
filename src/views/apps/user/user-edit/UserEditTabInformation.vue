@@ -3,8 +3,8 @@
   Description: User Edit Information Tab content
   ----------------------------------------------------------------------------------------
   Item Name: Tripcarte.Asia Dashboard Management Portal
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
+    Author: Tripcarte.Asia
+  Staging URL: http://tripcarte.gispatial.tech/api
 ========================================================================================== -->
 
 <template>
@@ -130,9 +130,9 @@ export default {
       langOptions: [
         { label: "English",  value: "english"  },
         { label: "Spanish",  value: "spanish"  },
-        { label: "French",   value: "french"   },
+        { label: "Malay",   value: "Malay"   },
         { label: "Russian",  value: "russian"  },
-        { label: "German",   value: "german"   },
+        { label: "Chinese",   value: "Chinese"   },
         { label: "Arabic",   value: "arabic"   },
         { label: "Sanskrit", value: "sanskrit" },
       ],

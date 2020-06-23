@@ -10,7 +10,7 @@ const data = {
     {
       uid: 34,
       displayName: "Parthiven Shan",
-      password: "adminadmin",
+      password: "1234",
       photoURL: require("@/assets/images/portrait/small/avatar-s-3.jpg"),
       email: "info@tripcarte.asia",
       phoneNumber: null,

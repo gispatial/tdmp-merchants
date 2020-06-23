@@ -189,7 +189,7 @@ export default {
     },
     getOrderStatusColor(status) {
       if(status == 'on_hold') return "warning"
-      if(status == 'delivered') return "success"
+      if(status == 'completed') return "success"
       if(status == 'canceled') return "danger"
       return "primary"
     },

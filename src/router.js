@@ -61,7 +61,8 @@ const router = new Router({
                     name: 'dashboard-ecommerce',
                     component: () => import('./views/DashboardECommerce.vue'),
                     meta: {
-                        rule: 'admin'
+                        rule: 'admin',
+                        authRequired: true
                     }
                 },
 
@@ -238,10 +239,10 @@ const router = new Router({
                     meta: {
                         breadcrumb: [
                             { title: 'Home', url: '/' },
-                            { title: 'Data List'},
-                            { title: 'List View', active: true },
+                            { title: 'Item'},
+                            { title: 'Listings', active: true },
                         ],
-                        pageTitle: 'List View',
+                        pageTitle: 'Redemptions',
                         rule: 'editor'
                     },
                 },
@@ -377,9 +378,9 @@ const router = new Router({
                     meta: {
                         breadcrumb: [
                             { title: 'Home', url: '/' },
-                            { title: 'Table', active: true },
+                            { title: 'History', active: true },
                         ],
-                        pageTitle: 'Table',
+                        pageTitle: 'Bookings',
                         rule: 'editor'
                     },
                 },
@@ -927,7 +928,7 @@ const router = new Router({
                             { title: 'Pages' },
                             { title: 'KnowledgeBase', active: true },
                         ],
-                        pageTitle: 'KnowledgeBase',
+                        pageTitle: 'TICKET COUNTER',
                         rule: 'editor'
                     },
                 },
@@ -939,7 +940,7 @@ const router = new Router({
                         breadcrumb: [
                             { title: 'Home', url: '/' },
                             { title: 'Pages' },
-                            { title: 'KnowledgeBase', url: '/pages/knowledge-base' },
+                            { title: 'TICKET COUNTER', url: '/pages/knowledge-base' },
                             { title: 'Category', active: true },
                         ],
                         parent: 'page-knowledge-base',
@@ -954,7 +955,7 @@ const router = new Router({
                         breadcrumb: [
                             { title: 'Home', url: '/' },
                             { title: 'Pages' },
-                            { title: 'KnowledgeBase', url: '/pages/knowledge-base' },
+                            { title: 'TICKET COUNTER', url: '/pages/knowledge-base' },
                             { title: 'Category', url: '/pages/knowledge-base/category' },
                             { title: 'Question', active: true },
                         ],

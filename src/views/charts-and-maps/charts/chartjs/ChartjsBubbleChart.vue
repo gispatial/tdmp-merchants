@@ -44,7 +44,7 @@ export default {
             r: 10
           }]
         }, {
-          label: [&quot;Germany&quot;],
+          label: [&quot;Chinesey&quot;],
           backgroundColor: &quot;rgba(0,0,0,0.2)&quot;,
           borderColor: &quot;#000&quot;,
           data: [{
@@ -120,7 +120,7 @@ export default {
                         r: 10
                     }]
                 }, {
-                    label: ["Germany"],
+                    label: ["Chinesey"],
                     backgroundColor: "rgba(0,0,0,0.2)",
                     borderColor: "#000",
                     data: [{

@@ -3,7 +3,7 @@ import mock from "@/fake-db/mock.js"
 const data = {
   subscribers_gained: {
     series: [{
-      name: 'Subscribers',
+      name: 'Merchants',
       data: [28, 40, 36, 52, 38, 60, 55]
     }],
     analyticsData: {

@@ -1,11 +1,4 @@
 <!-- =========================================================================================
-File Name: RegisterJWT.vue
-Description: Register Page for JWT
-----------------------------------------------------------------------------------------
-Item Name: Tripcarte.Asia Dashboard Management Portal
-  Author: Pixinvent
-Author URL: http://www.themeforest.net/user/pixinvent
-========================================================================================== -->
 
 
 <template>

@@ -19,7 +19,7 @@ import colors from "@/../themeConfig.js"
 const userDefaults = {
   uid         : 0,          // From Auth
   displayName : "Demo User", // From Auth
-  about       : "Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw brownie brownie marshmallow.",
+  about       : "Parthiven has a background in Software Engineering and is experienced as Project Manager (Technical) during his employment days in implementing and executing projects in Western Africa (IRIS Corporation). He has been involved in numerous customized solutions over the years.",
   photoURL    : require("@/assets/images/portrait/small/avatar-s-11.jpg"), // From Auth
   status      : "online",
   userRole    : "admin"

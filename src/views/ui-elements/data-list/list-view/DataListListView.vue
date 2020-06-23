@@ -3,8 +3,8 @@
   Description: Data List - List View
   ----------------------------------------------------------------------------------------
   Item Name: Tripcarte.Asia Dashboard Management Portal
-  Author: Pixinvent
-  Author URL: http://www.themeforest.net/user/pixinvent
+  Author: Netquest
+  Author URL: http://demo.tripcarte.asia/
 ========================================================================================== -->
 
 <template>
@@ -92,12 +92,12 @@
       </div>
 
       <template slot="thead">
-        <vs-th sort-key="name">Name</vs-th>
-        <vs-th sort-key="category">Category</vs-th>
-        <vs-th sort-key="popularity">Popularity</vs-th>
-        <vs-th sort-key="order_status">Order Status</vs-th>
-        <vs-th sort-key="price">Price</vs-th>
-        <vs-th>Action</vs-th>
+        <vs-th sort-key="name">Order ID</vs-th>
+        <vs-th sort-key="category">Item</vs-th>
+        <vs-th sort-key="popularity">Commission</vs-th>
+        <vs-th sort-key="order_status">Redempt Stats</vs-th>
+        <vs-th sort-key="price">Redeemed Date</vs-th>
+        <vs-th>Redeemed Qty</vs-th>
       </template>
 
         <template slot-scope="{data}">
@@ -185,7 +185,7 @@ export default {
     },
     getOrderStatusColor(status) {
       if(status == 'on_hold') return "warning"
-      if(status == 'delivered') return "success"
+      if(status == 'completed') return "success"
       if(status == 'canceled') return "danger"
       return "primary"
     },

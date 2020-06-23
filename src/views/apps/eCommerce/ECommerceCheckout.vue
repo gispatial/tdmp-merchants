@@ -231,10 +231,10 @@
                     <div class="vx-col lg:w-1/3 w-full">
                         <vx-card title="Demo User">
                             <div>
-                                <p>9447 Glen Eagles Drive</p>
-                                <p>Lewis Center, OH 43035</p>
-                                <p class="my-4">UTC-5: Eastern Standard Time (EST)</p>
-                                <p>202-555-0140</p>
+                                <p>3-09, Scott Garden, Jalan Kelang Lama,</p>
+                                <p>58000 Kuala Lumpur, Malaysia</p>
+                                <p class="my-4">UTC-8: Eastern Standard Time (EST)</p>
+                                <p>1700 818 095</p>
                             </div>
 
                             <vs-divider />

@@ -34,10 +34,10 @@
 export default {
   data() {
     return {
-      username: "johny_01",
+      username: "parthiven",
       name: this.$store.state.AppActiveUser.displayName,
-      email: "john@admin.com",
-      company: "SnowMash Technologies Pvt Ltd",
+      email: "info@tripcarte.asia",
+      company: "Netquest Solutions Sdn. Bhd.",
     }
   },
   computed: {

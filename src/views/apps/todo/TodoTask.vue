@@ -3,8 +3,8 @@
     Description: Single todo item component
     ----------------------------------------------------------------------------------------
     Item Name: Tripcarte.Asia Dashboard Management Portal
-      Author: Pixinvent
-    Author URL: http://www.themeforest.net/user/pixinvent
+      Author: Tripcarte.Asia
+    Staging URL: http://tripcarte.gispatial.tech/api
 ========================================================================================== -->
 
 

@@ -535,7 +535,7 @@ $(window).on("load", function () {
         r: 10
       }]
     }, {
-      label: ["Germany"],
+      label: ["Chinesey"],
       backgroundColor: "rgba(0,0,0,0.2)",
       borderColor: $black,
       data: [{

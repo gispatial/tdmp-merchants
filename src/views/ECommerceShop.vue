@@ -1,4 +1,4 @@
-<!-- =========================================================================================
+============================================================================
   File Name: ECommerceShop.vue
   Description: eCommerce Shop Page
   ----------------------------------------------------------------------------------------
@@ -80,74 +80,12 @@
                     <div class="p-6 filter-container">
 
                         <!-- MULTI RANGE -->
-                        <h6 class="font-bold mb-3">Multi Range</h6>
-                        <ais-numeric-menu attribute="price" :items="numericItems">
-                            <ul slot-scope="{ items, refine, createURL }">
-                                <li
-                                    v-for="item in items"
-                                    :key="item.value"
-                                    class="flex items-center cursor-pointer py-1"
-                                    @click="refine(item.value)">
-
-                                    <feather-icon icon="CircleIcon" :svgClasses="[{ 'text-primary fill-current': item.isRefined}, 'h-5 w-5']" />
-                                    <span class="ml-2" :class="{'text-primary': item.isRefined}">{{ item.label }}</span>
-                                </li>
-                            </ul>
-                        </ais-numeric-menu>
 
                         <vs-divider />
-
-                        <!-- PRICE SLIDER -->
-                        <h6 class="font-bold mb-3">Slider</h6>
-                        <ais-range-input attribute="price">
-                            <div slot-scope="{ currentRefinement, range, refine }">
-                                <vs-slider
-                                    class="algolia-price-slider"
-                                    text-fixed="$"
-                                    :min="range.min"
-                                    :max="range.max"
-                                    :value="toValue(currentRefinement, range)"
-                                    @input="refine({min: $event[0], max: $event[1]})" />
-                            </div>
-                        </ais-range-input>
-
-                        <vs-divider />
-
-                        <!-- CATEGORIES -->
-                        <h6 class="font-bold mb-4">Category</h6>
-                        <ais-hierarchical-menu :attributes="algoliaCategories">
-                            <div slot-scope="{
-                              items,
-                              refine,
-                            }">
-                                <ul>
-                                    <li v-for="item in items" :key="item.value" class="flex items-center cursor-pointer py-1" @click="refine(item.value)">
-                                        <feather-icon icon="CircleIcon" :svgClasses="[{ 'text-primary fill-current': item.isRefined}, 'h-5 w-5']" />
-                                        <span class="ml-2" :class="{'text-primary': item.isRefined}">{{ item.label }}</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </ais-hierarchical-menu>
 
                         <vs-divider />
 
                         <!-- Brands -->
-                        <h6 class="font-bold mb-4">Brand</h6>
-                        <ais-refinement-list attribute="brand">
-                            <div slot-scope="{
-                              items,
-                              isFromSearch,
-                              refine,
-                            }">
-                                <ul>
-                                    <li v-if="isFromSearch && !items.length">No results.</li>
-                                    <li v-for="item in items" :key="item.value" class="mb-2 flex items-center justify-between">
-                                        <vs-checkbox v-model="item.isRefined" class="ml-0" @click="refine(item.value)">{{ item.label }}</vs-checkbox>
-                                        <span>{{ item.count }}</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </ais-refinement-list>
                         <vs-divider />
 
                         <!-- Rating -->
@@ -347,17 +285,6 @@ export default {
         'latency',
         '6be0576ff61c053d5f9a3225e2a90f76'
       ),
-      // Filter Sidebar
-      isFilterSidebarActive: true,
-      clickNotClose: true,
-      currentItemView: 'item-grid-view',
-      numericItems: [
-        { label: 'All' },
-        { label: '<= $10', end: 10 },
-        { label: '$10 - $100', start: 10, end: 100 },
-        { label: '$100 - $500', start: 100, end: 500 },
-        { label: '>= $500', start: 500 },
-      ],
       algoliaCategories: [
         'hierarchicalCategories.lvl0',
         'hierarchicalCategories.lvl1',
@@ -438,10 +365,6 @@ export default {
 
   .algolia-search-input-right-aligned-icon {
     padding: 1rem 1.5rem;
-  }
-
-  .algolia-price-slider {
-    min-width: unset;
   }
 
   .item-view-primary-action-btn {

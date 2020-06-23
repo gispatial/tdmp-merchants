@@ -172,7 +172,7 @@ export default{
                 img         : require("@/assets/images/pages/modern.jpg"),
                 title       : 'Modern Admin - Clean Bootstrap 4 Dashboard HTML Template',
                 subtitle    : 'Clean Bootstrap 4 Dashboard HTML Template',
-                description : 'Clean Bootstrap 4 Dashboard HTML Template + Bitcoin Dashboard can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Fitness or any custom admin panels.',
+                description : 'Clean Bootstrap 4 Dashboard HTML Template + Bitcoin Dashboard can be used for any type of web applications: Project Management, eCommerce backends, CRM, Analytics, Langkawi or any custom admin panels.',
                 info: [
                     { title: '1,367', subtitle: 'Sales' },
                     { title: '74', subtitle: 'Comments' },

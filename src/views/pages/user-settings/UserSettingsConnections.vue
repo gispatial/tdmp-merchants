@@ -4,7 +4,7 @@
     <div class="flex flex-wrap justify-between items-center mb-8">
       <div>
         <p>Account is connected with Google.</p>
-        <p class="font-medium mb-4">john@gmail.com</p>
+        <p class="font-medium mb-4">info@tripcarte.asia</p>
       </div>
       <vs-button type="border" color="danger">Disconnect</vs-button>
     </div>
@@ -12,7 +12,7 @@
     <div class="flex flex-wrap justify-between items-center mb-base">
       <div>
         <p>Account is connected with facebook.</p>
-        <p class="font-medium mb-4">@pixinvents</p>
+        <p class="font-medium mb-4">@netquestsolutions</p>
       </div>
       <vs-button type="border" color="danger">Disconnect</vs-button>
     </div>

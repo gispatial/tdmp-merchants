@@ -20,12 +20,12 @@
 export default {
   data() {
     return {
-      twitter: "https://twitter.com/adoptionism744",
-      facebook: "https://www.facebook.com/adoptionism664",
-      instagram: "https://www.instagram.com/adopt-ionism744/",
+      twitter: "https://twitter.com/netquestsolutions",
+      facebook: "https://www.facebook.com/netquestsolutions",
+      instagram: "https://www.instagram.com/netquest_solutions",
       github: "https://github.com/madop818",
-      linkedin: "https://codepen.io/adoptism243",
-      slack: "@adoptionism744",
+      linkedin: "https://www.linkedin.com/company/netquest-solutions/",
+      slack: "@netquest_solutions",
     }
   },
   computed: {

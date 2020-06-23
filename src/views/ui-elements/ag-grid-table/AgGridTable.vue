@@ -147,12 +147,6 @@ export default {
           filter: true,
           width: 125,
         },
-        {
-          headerName: 'Pymt Reff',
-          field: 'followers',
-          filter: "agNumberColumnFilter",
-          width: 125,
-        },
       ],
       contacts: contacts,
     }

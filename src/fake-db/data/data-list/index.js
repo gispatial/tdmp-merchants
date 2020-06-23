@@ -6,7 +6,7 @@ const data = {
       "id": 1,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/island-hopping-1.jpg",
-      "name": "LANGKAWI ISLAND HOPPING",
+      "name": "UNDERWATER WORLD LANGKAWI",
       "order_status": "on_hold",
       "popularity": 97,
       "price": 27.20
@@ -16,7 +16,7 @@ const data = {
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/langkawi-underwater-world-ticket_1.jpg",
       "name": "UNDERWATER WORLD LANGKAWI",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 83,
       "price": 36.00
     },
@@ -24,7 +24,7 @@ const data = {
       "id": 3,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/kilim1-1-2.jpg",
-      "name": "KILIM GEOFOREST MANGROVE Shared Boat Tour",
+      "name": "UNDERWATER WORLD LANGKAWI",
       "order_status": "canceled",
       "popularity": 57,
       "price": 110.40
@@ -33,8 +33,8 @@ const data = {
       "id": 4,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/Langkawi-Cable-Car_13.jpg",
-      "name": "8 in 1 LANGKAWI FAMILY PACKAGE",
-      "order_status": "delivered",
+      "name": "UNDERWATER WORLD LANGKAWI",
+      "order_status": "completed",
       "popularity": 65,
       "price": 224.62
     },
@@ -42,7 +42,7 @@ const data = {
       "id": 5,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/langkawi-cable-car_9.jpg",
-      "name": "4 in 1 Langkawi Cable Car SKYCAB",
+      "name": "UNDERWATER WORLD LANGKAWI",
       "order_status": "canceled",
       "popularity": 87,
       "price": 82.50
@@ -51,8 +51,8 @@ const data = {
       "id": 6,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/Langkawi-Wildlife-Park-Malaysia_1.jpg",
-      "name": "LANGKAWI WILDLIFE PARK",
-      "order_status": "canceled",
+      "name": "UNDERWATER WORLD LANGKAWI",
+      "order_status": "completed",
       "popularity": 55,
       "price": 41.40
     },
@@ -60,8 +60,8 @@ const data = {
       "id": 7,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2020/02/Crocodile-adventure-Land.jpg",
-      "name": "CROCODILE ADVENTURELAND LANGKAWI – BASIC",
-      "order_status": "on_hold",
+      "name": "UNDERWATER WORLD LANGKAWI",
+      "order_status": "completed",
       "popularity": 99,
       "price": 51.52
     },
@@ -69,8 +69,8 @@ const data = {
       "id": 8,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/upsidow-3.jpg",
-      "name": "UPSIDOW LANGKAWI",
-      "order_status": "canceled",
+      "name": "UNDERWATER WORLD LANGKAWI",
+      "order_status": "completed",
       "popularity": 91,
       "price": 0
     },
@@ -78,8 +78,8 @@ const data = {
       "id": 9,
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/standard-combo-5.jpg",
-      "name": "4 in 1 Langkawi Cable Car SKYCAB with Express Lane",
-      "order_status": "delivered",
+      "name": "UNDERWATER WORLD LANGKAWI",
+      "order_status": "completed",
       "popularity": 52,
       "price": 39.99
     },
@@ -88,7 +88,7 @@ const data = {
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
       "name": "6D CINEMOTION",
-      "order_status": "canceled",
+      "order_status": "completed",
       "popularity": 64,
       "price": 28.20
     },
@@ -97,7 +97,7 @@ const data = {
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/langkawi-cable-car_8.jpg",
       "name": "3 in 1 CENANG COMBO",
-      "order_status": "canceled",
+      "order_status": "completed",
       "popularity": 93,
       "price": 144.10
     },
@@ -106,7 +106,7 @@ const data = {
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/SFFerry-3.jpg",
       "name": "FERRY – LANGKAWI to PENANG",
-      "order_status": "pending",
+      "order_status": "completed",
       "popularity": 75,
       "price": 73.60
     },
@@ -115,7 +115,7 @@ const data = {
       "category": "langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/skycab-glass-bottom-e1571281285725.jpg",
       "name": "4 in 1 Langkawi Cable Car SKYCAB GLASS BOTTOM with Express Lane",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 88,
       "price": 99.75
     },
@@ -124,7 +124,7 @@ const data = {
       "category": "johor",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/legoland-malaysia-resort_1.jpg",
       "name": "LEGOLAND MALAYSIA",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 86,
       "price": 263.00
     },
@@ -196,7 +196,7 @@ const data = {
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
       "name": "Beats by Dr. Dre - 3' USB-to-Micro USB Cable",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 65,
       "price": 19.99
     },
@@ -204,8 +204,8 @@ const data = {
       "id": 23,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Bike Mount for Pill Speakers",
-      "order_status": "delivered",
+      "name": "SUNSET CRUISE by Crystal Yacht - Adult",
+      "order_status": "completed",
       "popularity": 60,
       "price": 49.99
     },
@@ -213,7 +213,7 @@ const data = {
       "id": 24,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Support Stand for Speakers",
+      "name": "UNDERWATER WORLD LANGKAWI",
       "order_status": "on_hold",
       "popularity": 59,
       "price": 49.99
@@ -222,7 +222,7 @@ const data = {
       "id": 25,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Support Stand for Pill Speakers",
+      "name": "UNDERWATER WORLD LANGKAWI",
       "order_status": "on_hold",
       "popularity": 87,
       "price": 49.99
@@ -231,8 +231,8 @@ const data = {
       "id": 26,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Support Stand for Pill Speakers",
-      "order_status": "delivered",
+      "name": "UNDERWATER WORLD LANGKAWI",
+      "order_status": "completed",
       "popularity": 95,
       "price": 49.99
     },
@@ -240,7 +240,7 @@ const data = {
       "id": 27,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Support Stand for Speakers",
+      "name": "UNDERWATER WORLD LANGKAWI",
       "order_status": "canceled",
       "popularity": 98,
       "price": 49.99
@@ -249,8 +249,8 @@ const data = {
       "id": 28,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Support Stand",
-      "order_status": "delivered",
+      "name": "UNDERWATER WORLD LANGKAWI",
+      "order_status": "completed",
       "popularity": 75,
       "price": 49.99
     },
@@ -258,7 +258,7 @@ const data = {
       "id": 29,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Pill 2.0 Bluetooth Speaker",
+      "name": "UNDERWATER WORLD LANGKAWI",
       "order_status": "pending",
       "popularity": 81,
       "price": 199.99
@@ -267,7 +267,7 @@ const data = {
       "id": 30,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Pill 2.0 Bluetooth Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "canceled",
       "popularity": 91,
       "price": 199.99
@@ -276,7 +276,7 @@ const data = {
       "id": 31,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Bluetooth Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "canceled",
       "popularity": 79,
       "price": 199.99
@@ -285,7 +285,7 @@ const data = {
       "id": 32,
       "category": "kuala lumpur",
       "img": "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/09.png",
-      "name": "Beats by Dr. Dre - Portable Speaker + Headphones",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 95,
       "price": 699.99
@@ -294,7 +294,7 @@ const data = {
       "id": 33,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Beats by Dr. Dre - Pill 2.0 Portable Stereo Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 90,
       "price": 199.99
@@ -303,8 +303,8 @@ const data = {
       "id": 34,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Bose® - SoundLink® III Cover",
-      "order_status": "delivered",
+      "name": "TIME TRAVEL IMAGINARIUM",
+      "order_status": "completed",
       "popularity": 81,
       "price": 34.99
     },
@@ -313,7 +313,7 @@ const data = {
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
       "name": "Bose® - Bose® SoundLink® III Cover",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 81,
       "price": 34.99
     },
@@ -321,7 +321,7 @@ const data = {
       "id": 36,
       "category": "kuala lumpur",
       "img": "http://tripcarte.gispatial.tech/api/wp-content/uploads/2020/03/zoo-negara-ticket_-2-1.jpg",
-      "name": "Bose® - SoundLink® III Cover",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 69,
       "price": 34.99
@@ -376,7 +376,7 @@ const data = {
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
       "name": "Bose® - SoundLink® Color Bluetooth Speaker",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 98,
       "price": 129.99
     },
@@ -393,7 +393,7 @@ const data = {
       "id": 44,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Bose® - SoundLink® III Cover",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 76,
       "price": 34.99
@@ -402,7 +402,7 @@ const data = {
       "id": 45,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Bose® - SoundLink® III Cover",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "canceled",
       "popularity": 98,
       "price": 34.99
@@ -411,7 +411,7 @@ const data = {
       "id": 46,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Bose® - SoundLink® III Cover",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 70,
       "price": 34.99
@@ -520,7 +520,7 @@ const data = {
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
       "name": "Bose® - SoundLink® Soft Cover",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 89,
       "price": 24.99
     },
@@ -573,7 +573,7 @@ const data = {
       "id": 64,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "BRAVEN - BRV-X Outdoor Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 61,
       "price": 199.99
@@ -582,7 +582,7 @@ const data = {
       "id": 65,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "BRAVEN - Portable Bluetooth Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 85,
       "price": 299.99
@@ -591,7 +591,7 @@ const data = {
       "id": 66,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "BRAVEN - Portable Bluetooth Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 81,
       "price": 99.99
@@ -600,7 +600,7 @@ const data = {
       "id": 67,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "BRAVEN - Wireless Bluetooth Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 50,
       "price": 99.99
@@ -609,8 +609,8 @@ const data = {
       "id": 68,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "BRAVEN - Wireless Bluetooth Speaker",
-      "order_status": "delivered",
+      "name": "TIME TRAVEL IMAGINARIUM",
+      "order_status": "completed",
       "popularity": 93,
       "price": 99.99
     },
@@ -618,7 +618,7 @@ const data = {
       "id": 69,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "BRAVEN - Wireless Bluetooth Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 51,
       "price": 99.99
@@ -627,7 +627,7 @@ const data = {
       "id": 70,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Craig - Tower Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 77,
       "price": 69.99
@@ -636,7 +636,7 @@ const data = {
       "id": 71,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Craig - Portable Wireless Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "canceled",
       "popularity": 89,
       "price": 29.99
@@ -645,7 +645,7 @@ const data = {
       "id": 72,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Definitive Technology - Wireless Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 81,
       "price": 399.98
@@ -654,7 +654,7 @@ const data = {
       "id": 73,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Definitive Technology - Wireless Speaker",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 76,
       "price": 699.98
@@ -681,32 +681,32 @@ const data = {
       "id": 76,
       "category": "audio",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "ECOXGEAR - Waterproof Bluetooth Speaker",
+      "name": "SUNSET CRUISE by Crystal Yacht - Adult",
       "order_status": "canceled",
       "popularity": 52,
       "price": 129.99
     },
     {
       "id": 77,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge HR Activity Tracker + Heart Rate (Large)",
+      "name": "SUNSET CRUISE by Crystal Yacht - Adult Rate (Large)",
       "order_status": "pending",
       "popularity": 66,
       "price": 149.99
     },
     {
       "id": 78,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge HR Activity Tracker + Heart Rate (Large)",
-      "order_status": "delivered",
+      "name": "SUNSET CRUISE by Crystal Yacht - Adult Rate (Large)",
+      "order_status": "completed",
       "popularity": 66,
       "price": 149.99
     },
     {
       "id": 79,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
       "name": "6D CINEMOTION",
       "order_status": "canceled",
@@ -715,25 +715,25 @@ const data = {
     },
     {
       "id": 80,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge HR Activity Tracker + Heart Rate (Small)",
+      "name": "SUNSET CRUISE by Crystal Yacht - Adult Rate (Small)",
       "order_status": "on_hold",
       "popularity": 92,
       "price": 149.99
     },
     {
       "id": 81,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge HR Activity Tracker + Heart Rate (Small)",
-      "order_status": "delivered",
+      "name": "SUNSET CRUISE by Crystal Yacht - Adult Rate (Small)",
+      "order_status": "completed",
       "popularity": 82,
       "price": 149.99
     },
     {
       "id": 82,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
       "name": "6D CINEMOTION",
       "order_status": "pending",
@@ -744,7 +744,7 @@ const data = {
       "id": 83,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpgg",
-      "name": "Fitbit - Activity Tracker + Sleep Wristband",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 100,
       "price": 149.99
@@ -753,7 +753,7 @@ const data = {
       "id": 84,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Activity Tracker (Large)",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 52,
       "price": 129.99
@@ -762,7 +762,7 @@ const data = {
       "id": 85,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge Wireless Activity Tracker (Large)",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 51,
       "price": 129.99
@@ -771,7 +771,7 @@ const data = {
       "id": 86,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge Wireless Activity Tracker (Large)",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "pending",
       "popularity": 80,
       "price": 129.99
@@ -780,7 +780,7 @@ const data = {
       "id": 87,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge Wireless Activity Tracker (Small)",
+      "name": "TIME TRAVEL IMAGINARIUMmall)",
       "order_status": "on_hold",
       "popularity": 99,
       "price": 129.99
@@ -789,7 +789,7 @@ const data = {
       "id": 88,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Activity Tracker (Small)",
+      "name": "SUNSET CRUISE by Crystal Yacht - Child (5 - 12 years old)",
       "order_status": "on_hold",
       "popularity": 75,
       "price": 129.99
@@ -798,17 +798,17 @@ const data = {
       "id": 89,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charge Wireless Activity Tracker (Small)",
+      "name": "TIME TRAVEL IMAGINARIUMmall)",
       "order_status": "pending",
       "popularity": 80,
       "price": 129.99
     },
     {
       "id": 90,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Charging Cable for Activity Trackers",
-      "order_status": "delivered",
+      "name": "TIME TRAVEL IMAGINARIUM",
+      "order_status": "completed",
       "popularity": 50,
       "price": 19.99
     },
@@ -816,8 +816,8 @@ const data = {
       "id": 91,
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Clip for Activity and Sleep Trackers",
-      "order_status": "delivered",
+      "name": "TIME TRAVEL IMAGINARIUM",
+      "order_status": "completed",
       "popularity": 57,
       "price": 14.99
     },
@@ -841,18 +841,18 @@ const data = {
     },
     {
       "id": 94,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Flex 1\" USB Charging Cable",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "on_hold",
       "popularity": 81,
       "price": 14.99
     },
     {
       "id": 95,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/6D_Cinemotion-2.jpg",
-      "name": "Fitbit - Flex 1\" USB Charging Cable",
+      "name": "TIME TRAVEL IMAGINARIUM",
       "order_status": "canceled",
       "popularity": 51,
       "price": 14.99
@@ -861,7 +861,7 @@ const data = {
       "id": 96,
       "category": "kuala lumpur",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/Animal-1.jpg",
-      "name": "G2G ANIMAL GARDEN",
+      "name": "G2G ANIMAL GARDENIA",
       "order_status": "canceled",
       "popularity": 56,
       "price": 28.20
@@ -880,7 +880,7 @@ const data = {
       "category": "singapore",
       "img": "https://tripcarte.asia/wp-content/uploads/2019/10/Universal_Studio_4.jpg",
       "name": "UNIVERSAL STUDIO SINGAPORE",
-      "order_status": "delivered",
+      "order_status": "completed",
       "popularity": 85,
       "price": 229.43
     },
@@ -895,10 +895,10 @@ const data = {
     },
     {
       "id": 100,
-      "category": "fitness",
+      "category": "Langkawi",
       "img": "https://tripcarte.asia/wp-content/uploads/2020/03/Kwai-Cha-Hong-4.jpg",
-      "name": "KL UNSEEN (PRIVATE TOUR)",
-      "order_status": "delivered",
+      "name": "KL UNSEEN (PRIVATE TOUR2)",
+      "order_status": "Completed",
       "popularity": 72,
       "price": 733.20
     }

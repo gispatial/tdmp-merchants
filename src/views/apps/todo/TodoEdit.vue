@@ -3,19 +3,18 @@
     Description: Edit todo component
     ----------------------------------------------------------------------------------------
     Item Name: Tripcarte.Asia Dashboard Management Portal
-      Author: Pixinvent
-    Author URL: http://www.themeforest.net/user/pixinvent
+      Author: Tripcarte.Asia
+    Staging URL: http://tripcarte.gispatial.tech/api
 ========================================================================================== -->
 
 
 <template>
     <vs-prompt
-        title="Edit Review"
-        accept-text= "Submit"
-        cancel-text = "Remove"
+        title="Review (View Only!)"
+        accept-text= "Close This Window"
         button-cancel = "border"
         @cancel="removeTodo"
-        @accept="submitTodo"
+        @accept=""
         @close="init"
         :is-valid="validateForm"
         :active.sync="activePrompt">
@@ -23,11 +22,9 @@
             <form>
                 <div class="vx-row">
                     <div class="vx-col w-1/6 self-center">
-                        <vs-checkbox v-model="taskLocal.isCompleted" class="w-8"></vs-checkbox>
                     </div>
 
                     <div class="vx-col ml-auto flex">
-                        <feather-icon icon="InfoIcon" class="cursor-pointer" :svgClasses="[{'text-success stroke-current': taskLocal.isImportant}, 'w-5', 'h-5 mr-4']" @click.prevent="taskLocal.isImportant = !taskLocal.isImportant"></feather-icon>
 
                         <feather-icon icon="StarIcon" class="cursor-pointer" :svgClasses="[{'text-warning stroke-current': taskLocal.isStarred}, 'w-5', 'h-5 mr-4']" @click.prevent="taskLocal.isStarred = !taskLocal.isStarred"></feather-icon>
 

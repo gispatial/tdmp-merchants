@@ -312,7 +312,7 @@ export default{
         "objectID"   : "5565002",
       },
       {
-        "name"       : "Amazon - Fire TV Stick with Alexa Voice Remote - Black",
+        "name"       : "Amazon - Fire TV Stick with Alexa Voice Remote - Black - Black",
         "brand"      : "Amazon",
         "price"      : 39.99,
         "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/03.png",

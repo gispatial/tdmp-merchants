@@ -41,78 +41,63 @@ export default [
       i18n: "Colors",
     },
     {
-      url: null,
-      name: "Finance",
+      url: '/ui-elements/ag-grid-table',
+      name: "PAYOUTS",
       tag: "new",
       tagColor: "primary",
       icon: "FolderIcon",
-      i18n: "Finance",
-      submenu: [
-        {
-          url: '/dashboard/ecommerce',
-          name: "ADMIN DASHBOARD",
-          icon: "AwardIcon",
-          slug: "extra-component-charts-echarts",
-          i18n: "ADMIN DASHBOARD",
-       },
-       {
-         url: '/ui-elements/ag-grid-table',
-         name: "Payouts",
-         slug: "extra-component-charts-echarts",
-         i18n: "Payouts",
-      },
-      ]
+      i18n: "PAYOUTS",
     },
     {
-      url: null,
-      name: "Customer Service",
+      url: '/ui-elements/data-list/list-view',
+      name: "REDEMPTIONS",
       tag: "new",
       tagColor: "primary",
       icon: "FolderIcon",
-      i18n: "Customer Service",
-      submenu: [
-        {
-          url: '/dashboard/ecommerce',
-          name: "ADMIN DASHBOARD",
-          icon: "AwardIcon",
-          slug: "extra-component-charts-echarts",
-          i18n: "ADMIN DASHBOARD",
-       },
-       {
-         url: '/ui-elements/ag-grid-table',
-         name: "Payouts",
-         slug: "extra-component-charts-echarts",
-         i18n: "Payouts",
-      },
-      ]
+      i18n: "REDEMPTIONS",
     },
       {
-        url: null,
-        name: "Management",
+        url: '/apps/eCommerce/shop',
+        name: "PRODUCTS",
         tag: "new",
         tagColor: "primary",
         icon: "FolderIcon",
-        i18n: "Management",
-        submenu: [
-          {
-            url: '/dashboard/ecommerce',
-            name: "ADMIN DASHBOARD",
-            icon: "AwardIcon",
-            slug: "extra-component-charts-echarts",
-            i18n: "ADMIN DASHBOARD",
-         },
-         {
-           url: '/ui-elements/ag-grid-table',
-           name: "Payouts",
-           slug: "extra-component-charts-echarts",
-           i18n: "Payouts",
+        i18n: "PRODUCTS",
+      },
+        {
+          url: '/apps/todo/all',
+          name: "REVIEWS",
+          tag: "new",
+          tagColor: "primary",
+          icon: "FolderIcon",
+          i18n: "REVIEWS",
         },
-        ]
-      },{
+        {
+  url: '/extensions/drag-and-drop',
+  name: "SCAN TICKETS",
+  icon: "FolderIcon",
+  i18n: "SCAN TICKETS",
+},
+{
+              url: '/ui-elements/table',
+              name: "BOOKINGS",
+              tag: "new",
+              tagColor: "primary",
+              icon: "FolderIcon",
+              i18n: "BOOKINGS",
+            },
+              {
+                url: '/extensions/i18n',
+                name: "SETTINGS",
+                tagColor: "primary",
+                icon: "FolderIcon",
+                i18n: "SETTINGS",
+              },
+              {
         url: null,
-        name: "Admin User Profile",
+        name: "ADMINISTRATOR ACCOUNT",
         icon: "UsersIcon",
-        i18n: "Admin User Profile",
+        i18n: "ADMINISTRATOR ACCOUNT",
         submenu: [
           {
             url: '/apps/user/user-list',
@@ -134,13 +119,20 @@ export default [
             slug: "app-user-edit",
             i18n: "Update all Users",
           },
+          {
+            url: '/pages/user-settings',
+            name: "User Management",
+            icon: "UserIcon",
+            slug: "app-user-list",
+            i18n: "User Settings",
+          },
         ]
       },
       {
         url: null,
-        name: "Product Listing",
-        icon: "EditIcon",
-        i18n: "Product Listing",
+        name: "FINANCE ADMIN",
+        icon: "HomeIcon",
+        i18n: "FINANCE ADMIN",
         submenu: [
           // {
           //   name: "Import/Export",
@@ -150,18 +142,18 @@ export default [
           //   ]
           // },
           {
-            url: "/ui-elements/data-list/thumb-view",
-            name: "Point of Sale(POS)",
+            url: "/dashboard/ecommerce",
+            name: "Dashboard",
             icon: "HomeIcon",
             slug: "import",
-            i18n: "Point of Sale(POS)"
+            i18n: "Dashboard"
           },
           {
-            url: "/ui-elements/data-list/list-view",
-            name: "Item Listings",
+            url: "/ui-elements/ag-grid-table",
+            name: "PAYOUTS",
             icon: "HomeIcon",
             slug: "export",
-            i18n: "Item Listings"
+            i18n: "PAYOUTS"
           }
         ]
       },

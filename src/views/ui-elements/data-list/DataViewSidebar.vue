@@ -31,7 +31,7 @@
           <!-- Image upload Buttons -->
           <div class="modify-img flex justify-between mt-5">
             <input type="file" class="hidden" ref="updateImgInput" @change="updateCurrImg" accept="image/*">
-            <vs-button class="mr-4" type="flat" @click="$refs.updateImgInput.click()">Update Image</vs-button>
+            <vs-button class="mr-4" type="flat" @click="$refs.updateImgInput.click()">Update Attractions</vs-button>
             <vs-button type="flat" color="#999" @click="dataImg = null">Remove Image</vs-button>
           </div>
         </template>
@@ -123,16 +123,16 @@ export default {
       dataPrice: 0,
 
       category_choices: [
-        {text:'Audio',value:'audio'},
-        {text:'Computers',value:'computers'},
-        {text:'Fitness',value:'fitness'},
-        {text:'Appliance',value:'appliance'}
+        {text:'TOP DESTINATIONS',value:'audio'},
+        {text:'SPECIAL PROMOTION',value:'computers'},
+        {text:'MOST POPULAR',value:'Langkawi'},
+        {text:'NEW ATTRACTIONS',value:'appliance'}
       ],
 
       order_status_choices: [
         {text:'Pending',value:'pending'},
         {text:'Canceled',value:'canceled'},
-        {text:'Delivered',value:'delivered'},
+        {text:'Completed',value:'completed'},
         {text:'On Hold',value:'on_hold'}
       ],
       settings: { // perfectscrollbar settings

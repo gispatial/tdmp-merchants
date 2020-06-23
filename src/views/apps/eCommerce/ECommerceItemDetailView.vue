@@ -29,7 +29,7 @@
             <div class="vx-row mt-6">
               <div class="vx-col md:w-2/5 w-full flex items-center justify-center">
                 <div class="product-img-container w-3/5 mx-auto mb-10 md:mb-0">
-                  <img src="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/01.png" :alt="item_data.name" class="responsive">
+                  <img src="https://tripcarte.asia/wp-content/uploads/2019/10/Flowrider-3.jpg" :alt="item_data.name" class="responsive">
 
                   <!--
                     UnComment Below line for true flow
@@ -312,8 +312,8 @@ export default{
         "objectID"   : "5565002",
       },
       {
-        "name"       : "Amazon - Fire TV Stick with Alexa Voice Remote - Black",
-        "brand"      : "Amazon",
+        "name"       : "Amazonian - Fire TV Stick with Alexa Voice Remote - Black - Black",
+        "brand"      : "Amazonian",
         "price"      : 39.99,
         "image"      : "https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/products/03.png",
         "rating"     : 4,

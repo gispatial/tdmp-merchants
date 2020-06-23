@@ -3,27 +3,23 @@
     Description: Add pagination to table for long data
     ----------------------------------------------------------------------------------------
     Item Name: Tripcarte.Asia Dashboard Management Portal
-      Author: Pixinvent
-    Author URL: http://www.themeforest.net/user/pixinvent
+      Author: TripcarteAsia
+    Author URL: http://www.tripcarte.asia/
 ========================================================================================== -->
 
 
 <template>
-    <vx-card title="Pagination" code-toggler>
+    <vx-card title="Order">
 
-        <p>You can add a paginated table with the pagination property</p>
-
-        <vs-alert color="primary" icon="new_releases" active="true" class="my-3">
-            <p>by default the maximum number of elements per page is 5 to change it using the max-items property</p>
-        </vs-alert><br>
+        <br>
 
         <vs-table max-items="3" pagination :data="users">
-
             <template slot="thead">
-                <vs-th>Email</vs-th>
-                <vs-th>Name</vs-th>
-                <vs-th>Website</vs-th>
-                <vs-th>Nro</vs-th>
+            <vs-th>Order ID</vs-th>
+                <vs-th>Items</vs-th>
+                <vs-th>Customer</vs-th>
+                <vs-th>Quantity</vs-th>
+                <vs-th>Selected Date</vs-th>
             </template>
 
             <template slot-scope="{data}">
@@ -175,73 +171,73 @@ export default {
         users: [
             {
                 "id": 1,
-                "name": "Leanne Graham",
-                "username": "Bret",
-                "email": "Sincere@april.biz",
-                "website": "hildegard.org",
+                "name": "ERYNA MELISSA",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "155",
+                "website": "ERYNA MELISSA",
             },
             {
                 "id": 2,
-                "name": "Ervin Howell",
-                "username": "Antonette",
-                "email": "Shanna@melissa.tv",
-                "website": "anastasia.net",
+                "name": "Brian Wong",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "155",
+                "website": "ERYNA MELISSA",
             },
             {
                 "id": 3,
-                "name": "Clementine Bauch",
-                "username": "Samantha",
-                "email": "Nathan@yesenia.net",
-                "website": "ramiro.info",
+                "name": "BRIAN WONG",
+                "username": "SUNSET CRUISE by Crystal Yacht - Adult",
+                "email": "82",
+                "website": "BRIAN WONG",
             },
             {
                 "id": 4,
-                "name": "Patricia Lebsack",
-                "username": "Karianne",
-                "email": "Julianne.OConner@kory.org",
-                "website": "kale.biz",
+                "name": "ERYNA MELISSA",
+                "username": "SUNSET CRUISE by Crystal Yacht - Child (5 - 12 years old)",
+                "email": "33153",
+                "website": "NUR NATASHA NABILLA BINTI MOHD NASIR",
             },
             {
                 "id": 5,
-                "name": "Chelsey Dietrich",
-                "username": "Kamren",
-                "email": "Lucio_Hettinger@annie.ca",
-                "website": "demarco.info",
+                "name": "ERYNA MELISSA",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "33157",
+                "website": "ERYNA MELISSA",
             },
             {
                 "id": 6,
-                "name": "Mrs. Dennis Schulist",
-                "username": "Leopoldo_Corkery",
-                "email": "Karley_Dach@jasper.info",
-                "website": "ola.org",
+                "name": "NUR EZA ANISS",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "33157",
+                "website": "NUR EZA ANISS",
             },
             {
                 "id": 7,
-                "name": "Kurtis Weissnat",
-                "username": "Elwyn.Skiles",
-                "email": "Telly.Hoeger@billy.biz",
-                "website": "elvis.io",
+                "name": "ANIS SHAHIRAH",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "33151",
+                "website": "ANIS SHAHIRAH",
             },
             {
                 "id": 8,
-                "name": "Nicholas Runolfsdottir V",
-                "username": "Maxime_Nienow",
-                "email": "Sherwood@rosamond.me",
-                "website": "jacynthe.com",
+                "name": "AMIR NUR AFIQ",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "33150",
+                "website": "AMIR NUR AFIQ",
             },
             {
                 "id": 9,
-                "name": "Glenna Reichert",
-                "username": "Delphine",
-                "email": "Chaim_McDermott@dana.io",
-                "website": "conrad.com",
+                "name": "AMIR NUR AFIQ",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "33149",
+                "website": "AMIR NUR AFIQ",
             },
             {
                 "id": 10,
-                "name": "Clementina DuBuque",
-                "username": "Moriah.Stanton",
-                "email": "Rey.Padberg@karina.biz",
-                "website": "ambrose.net",
+                "name": "ANIS SHAHIRAH",
+                "username": "TIME TRAVEL IMAGINARIUM",
+                "email": "33148",
+                "website": "ANIS SHAHIRAH",
             }
         ]
     }),

@@ -1,17 +1,12 @@
-Product Name
+Project Name
 ---------------
-Vuexy HTML Admin Template
+TDMP - TricarteAsia Dashboard Management Project
 
 
-Product Description
+Project Description
 -------------------
-Vuexy admin is super flexible, powerful, clean & modern responsive bootstrap admin template with unlimited possibilities. It includes 4 pre-built templates with organized folder structure, clean & commented code, 100+ pages, 70+ components, 50+ charts, 50+ advance cards (widgets) and many more.
+Tripcarte Asia is a provider of attractions and activity ticketing using the most efficient and convenient methods. Ideal for small to big scale travel operators , freelance agents and online platforms , Tripcarte Asia offers and inventory-less ticketing model to over 1000 attractions and activities in South East Asia.
 
-
-Online Documentation
---------------------
-You will find documentation in your downloaded zip file from ThemeForest. You can access documentation online as well.
-Documentation URL: https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation
 
 Change Log
 ----------

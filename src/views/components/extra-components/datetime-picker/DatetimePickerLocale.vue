@@ -25,14 +25,14 @@
 &lt;script&gt;
 import flatPickr from 'vue-flatpickr-component'
 import 'flatpickr/dist/flatpickr.min.css';
-import {French as FrenchLocale} from 'flatpickr/dist/l10n/fr.js';
+import {Malay as MalayLocale} from 'flatpickr/dist/l10n/fr.js';
 
 export default {
     data() {
         return {
             date: null,
             configdateTimePicker: {
-              locale: FrenchLocale
+              locale: MalayLocale
             }
         }
     },
@@ -48,14 +48,14 @@ export default {
 <script>
 import flatPickr from 'vue-flatpickr-component'
 import 'flatpickr/dist/flatpickr.min.css';
-import {French as FrenchLocale} from 'flatpickr/dist/l10n/fr.js';
+import {Malay as MalayLocale} from 'flatpickr/dist/l10n/my.js';
 
 export default {
     data() {
         return {
             date: null,
             configdateTimePicker: {
-              locale: FrenchLocale
+              locale: MalayLocale
             }
         }
     },

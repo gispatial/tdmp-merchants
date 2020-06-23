@@ -29,7 +29,7 @@
     </div>
 
     <div class="bookmark-container">
-      <feather-icon icon="StarIcon" :svgClasses="['stoke-current text-warning', textColor]" class="cursor-pointer p-2" @click.stop="showBookmarkPagesDropdown = !showBookmarkPagesDropdown" />
+      <feather-icon icon="" :svgClasses="['stoke-current text-warning', textColor]" class="cursor-pointer p-2" @click.stop="showBookmarkPagesDropdown = !showBookmarkPagesDropdown" />
       <div v-click-outside="outside" class="absolute bookmark-list w-1/3 xl:w-1/4 mt-4" v-if="showBookmarkPagesDropdown">
         <vx-auto-suggest
           ref="bookmarkAutoSuggest"
@@ -37,7 +37,7 @@
           :data="navbarSearchAndPinList"
           :initalData="{pages: starredPagesLimited.concat(starredPagesMore)}"
           :searchLimit="5"
-          placeholder="Explore Vuexy..."
+          placeholder="Explore Tripcarte.Asia......"
           inputClassses="w-full"
           show-action
           show-pinned

@@ -3,8 +3,8 @@
     Description: I18n demo
     ----------------------------------------------------------------------------------------
     Item Name: Tripcarte.Asia Dashboard Management Portal
-      Author: Pixinvent
-    Author URL: http://www.themeforest.net/user/pixinvent
+      Author: TripcarteDev
+    Author URL: https://partners.tripcarte.asia/
 ========================================================================================== -->
 
 
@@ -18,15 +18,15 @@
                 </vs-radio>
 
                 <vs-radio v-model="locale" vs-value="fr" class="mt-3">
-                    <span class="mr-2">French</span>
+                    <span class="mr-2">Malay</span>
                 </vs-radio>
 
                 <vs-radio v-model="locale" vs-value="de" class="mt-3">
-                    <span class="mr-2">German</span>
+                    <span class="mr-2">Chinese</span>
                 </vs-radio>
 
                 <vs-radio v-model="locale" vs-value="pt" class="mt-3">
-                    <span class="mr-2">Portuguese</span>
+                    <span class="mr-2">Tamil</span>
                 </vs-radio>
             </div>
 
