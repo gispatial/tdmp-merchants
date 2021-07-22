@@ -69,7 +69,7 @@
     "vuesax": "3.11.1",
     "vuex": "^3.1.1",
     "vuex-rest-api": "^2.12.1",
-    "xlsx": "^0.15.0"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
